@@ -16,7 +16,7 @@ class QueryBuilder extends AdapterInterface{
       'page'    => 1,
     ]);
 
-    $total = $builder->getPaginate();
+    $total = $builder->Paginate();
 
     $this->bind('global_search', function($column, $search) {
       $this->builder->orWhere("{$column} LIKE :key_{$column}:", ["key_{$column}" => "%{$search}%"]);
@@ -38,7 +38,7 @@ class QueryBuilder extends AdapterInterface{
       'page'    => $this->parser->getPage(),
     ]);
 
-    $filtered = $builder->getPaginate();
+    $filtered = $builder->Paginate();
 
     return $this->formResponse([
       'total'     => $total->total_items,
